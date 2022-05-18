@@ -1,6 +1,6 @@
 const analyticsTracking = (eventName) => {
-  if (typeof windowd !== "undefined") {
-    window.ga("send", "event", "social", "click", eventName, {
+  if (typeof window !== "undefined") {
+    gtag("send", "event", "social", "click", eventName, {
       nonInteraction: true,
     });
   }
