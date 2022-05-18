@@ -14,9 +14,22 @@
 </script>
 
 <script>
+	import { onMount } from 'svelte';
 	import formatIsoTime from '../../utils/formatIsoTime';
 	import readingTime from '../../utils/readingTime';
 	export let post;
+
+	const disqus = () => { 
+		let d = document, s = d.createElement('script');
+		s.src = 'https://alejandroblog.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);	
+	};
+
+	onMount(async() => {
+		document.readyState === 'complete' ? await disqus() : document.addEventListener('readystatechange', async() => document.readyState === 'complete' && await disqus())
+	});
+
 </script>
 
 <style>
@@ -58,5 +71,9 @@
 	<div class="content">
 		{@html post.html}
 	</div>
-	<div class="comments"/>
+	<div class="comments">
+		<div id="disqus_thread">
+
+		</div>
+	</div>
 </div>
