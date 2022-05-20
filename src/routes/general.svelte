@@ -14,7 +14,7 @@
 </script>
 
 <style>
-    .Post {
+    .Posts {
         display: grid;
         justify-content: space-between;
         gap: 30px;
