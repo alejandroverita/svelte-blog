@@ -1,0 +1,59 @@
+
+  <?xml version="1.0" encoding="UTF-8"?>
+  <urlset xmlns="">
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app/</loc>
+        <lastmod>Tue, 24 May 2022 00:31:04 GMT</lastmod>
+        <priority>1.0</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/test-svelte</loc>
+        <lastmod>Fri, 26 Jun 2020 14:38:42 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/welcome</loc>
+        <lastmod>Wed, 24 Jun 2020 15:37:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/the-editor</loc>
+        <lastmod>Wed, 24 Jun 2020 15:37:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/publishing-options</loc>
+        <lastmod>Wed, 24 Jun 2020 15:37:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/admin-settings</loc>
+        <lastmod>Wed, 24 Jun 2020 15:37:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/organising-content</loc>
+        <lastmod>Wed, 24 Jun 2020 15:37:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/apps-integrations</loc>
+        <lastmod>Wed, 24 Jun 2020 15:37:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+    <url>
+        <loc>https://svelte-blog-alejandro.netlify.app//blog/themes</loc>
+        <lastmod>Wed, 24 Jun 2020 15:37:45 GMT</lastmod>
+        <priority>0.80</priority>
+    </url>
+    
+  </urlset> 
+  
