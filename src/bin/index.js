@@ -1,6 +1,6 @@
 const fetch = require("node-fetch");
 const fs = require("fs");
-let postsObj = require("../routes/blog/_post.json");
+let postsObj = require("../routes/blog/_posts.json");
 require("dotenv").config();
 
 const API = process.env.GHOST_API;
@@ -134,7 +134,7 @@ const fetchData = async () => {
   if (postsObj.length >= 15) {
     if (posts[0].title === postsObj[0].title) {
       postsObj.shift();
-      postsObj.unshift(post[0]);
+      postsObj.unshift(posts[0]);
       writeFile(postsObj);
     } else {
       postsObj.unshift(posts[0]);

@@ -1,4 +1,4 @@
-import data from "./_post.json";
+import data from "./_posts.json";
 let posts = data;
 
 posts.forEach((post) => {

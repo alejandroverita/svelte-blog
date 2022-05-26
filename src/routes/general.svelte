@@ -29,7 +29,7 @@
 <div class="General">
     <h1>General</h1>
     <div class="Posts">
-        {#if filterPost >= 1}
+        {#if filterPost.length >= 1}
             {#each filterPost as post}
                 <Post {post} />
             {/each}
